@@ -12,11 +12,11 @@ export default function Home() {
           <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">
             Fanchao Lin
           </h1>
-          <p className="mt-6 max-w-xl text-base leading-7 text-zinc-400 sm:text-lg">
-            Placeholder bio goes here. A sentence or two about who you are, what
-            you build, and what you&apos;re interested in. Swap this out with
-            your own words whenever you&apos;re ready.
-          </p>
+          <p className="mt-6 max-w-xl text-base leading-7 text-zinc-300 sm:text-lg">
+            Hi, I'm a 3rd year university student interested in various aspects of programming.
+            I've worked on a bunch of front-end web development and am currently focusing on AI, 
+            game development, and backend infrastructure.
+           </p>
         </section>
 
         {/* Projects */}
@@ -25,14 +25,14 @@ export default function Home() {
             Projects
           </h2>
           <p className="mt-3 text-sm text-zinc-400">
-            Things I&apos;m building and have built.
+            Take a look at thing's I'm building!
           </p>
           <div className="mt-10">
             <Carousel />
           </div>
         </section>
 
-        {/* Stats */}
+        {/* Stats
         <section id="stats" className="py-24">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Stats
@@ -41,7 +41,7 @@ export default function Home() {
             Placeholder for stats &mdash; GitHub activity, languages, or whatever
             you want to highlight here.
           </p>
-        </section>
+        </section> */}
 
         {/* Contact */}
         <section id="contact" className="py-24">
@@ -49,7 +49,7 @@ export default function Home() {
             Contact
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-6 text-zinc-400">
-            Get in touch. Drop your links in below.
+            Get in touch.
           </p>
           <ul className="mt-6 flex flex-wrap gap-4">
             <li>
