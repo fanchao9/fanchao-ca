@@ -2,39 +2,22 @@ export type Project = {
   title: string;
   description: string;
   tags: string[];
-  // Optional link to live demo
   demoUrl?: string;
-  // Optional link to source repository
   repoUrl?: string;
+  image?: string;
+  comingSoon?: boolean;
 };
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "NBA Higher or Lower",
     description:
-      "A short description of what this project does and why it exists. Replace this with real details about something you've built.",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
-    demoUrl: "#",
-    repoUrl: "#",
+      "A guessing game where you decide whether one NBA player's stat is higher or lower than another's. Currently in development.",
+    tags: ["Next.js", "React", "Tailwind"],
+    demoUrl: "https://nba-higher-or-lower.vercel.app",
+    repoUrl: "https://github.com/fanchao9/nba-higher-or-lower",
+    image: "/projects/nba-higher-or-lower.png",
+    comingSoon: true,
   },
-  {
-    title: "Project Two",
-    description:
-      "Another placeholder project. Describe the problem it solves, the stack, and anything you're proud of here.",
-    tags: ["React", "Node.js", "PostgreSQL"],
-    repoUrl: "#",
-  },
-  {
-    title: "Project Three",
-    description:
-      "Currently building this one. Use this card for work in progress and update it as it takes shape.",
-    tags: ["Python", "FastAPI"],
-    demoUrl: "#",
-  },
-  {
-    title: "Project Four",
-    description:
-      "One more placeholder so the carousel has something to cycle through. Add or remove entries freely.",
-    tags: ["Rust", "WebAssembly"],
-  },
+
 ];

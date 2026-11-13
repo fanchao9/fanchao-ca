@@ -24,24 +24,10 @@ export default function Home() {
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-3 text-sm text-zinc-400">
-            Take a look at thing's I'm building!
-          </p>
           <div className="mt-10">
             <Carousel />
           </div>
         </section>
-
-        {/* Stats
-        <section id="stats" className="py-24">
-          <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Stats
-          </h2>
-          <p className="mt-3 max-w-xl text-sm leading-6 text-zinc-400">
-            Placeholder for stats &mdash; GitHub activity, languages, or whatever
-            you want to highlight here.
-          </p>
-        </section> */}
 
         {/* Contact */}
         <section id="contact" className="py-24">
